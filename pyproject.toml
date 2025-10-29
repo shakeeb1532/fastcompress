@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastcompress"
+version = "1.0.0"
+description = "Ultra-fast compression library using LZ4 with auto-tuned chunking"
+authors = [
+    { name="Salman Shakeeb", email="shakeeb1532@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["compression", "LZ4", "performance", "C-extension"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/shakeeb1532/fastcompress"
+
